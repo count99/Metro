@@ -3,6 +3,8 @@ from .models import Apart, Employee, Station, Product, Equipment
 # Register your models here.
 
 admin.site.site_header = "通訊設備管理介面"
+admin.site.site_title = "通訊設備管理介面"
+admin.site.index_title = "通訊設備管理介面"
 admin.site.register(Apart)
 admin.site.register(Employee)
 admin.site.register(Station)
